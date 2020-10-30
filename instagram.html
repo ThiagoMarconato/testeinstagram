@@ -8,7 +8,7 @@
     <body>
          <div class="instagram-wrapper">
             <div class="instragram-phone">
-                <img src="celular.png" alt="celular" id="phone">
+                <img src="celular.png" alt="celular" id="phone"> 
             </div>
             <div class="instagram-continue">
                 <div class="group">
@@ -39,6 +39,26 @@
                 </div>
             </div>
          </div> 
-         
+         <script>
+             
+             function trocaimagem(){
+                var img =  document.getElementById('phone');
+                img.src = 'celular2.png';
+            }
+
+            function trocaimagem2(){
+                var img2 = document.getElementById('phone');
+                img2.src = 'celular.png';
+            }
+
+            function trocaimagem3(){
+                var img3 = document.getElementById('phone');
+                img3.src = 'celular3.png';
+            }
+            setInterval(function() {trocaimagem();},5000);
+            setInterval(function() {trocaimagem2();},6000);
+            setInterval(function() {trocaimagem3();},7000);
+                
+         </script>
     </body>
 </html>
